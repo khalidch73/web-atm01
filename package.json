@@ -1,0 +1,28 @@
+{
+  "name": "web-atm",
+  "version": "1.0.1",
+  "description": "TypeScript/Node.js project is a console-based application using inquirer, chalk, node-banner and gradient-string. When the system starts the user is prompted with a user id and user pin. After entering the details successfully, the ATM functionalities are unlocked. All the user data is generated randomly.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "web-atm": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "khalid ch",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.11",
+    "node-banner": "^1.4.0",
+    "web-atm": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/gradient-string": "^1.1.3",
+    "@types/inquirer": "^9.0.3"
+  }
+}
