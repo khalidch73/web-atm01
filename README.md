@@ -35,10 +35,10 @@
       "bin": {
         "multiply": "bin/index.js"
        },
-9 create user.ts file1
-10 creat atm.ts file 
-11 create index.ts and add the following statement at the top of the code 
+9      create user.ts file1
+10    creat atm.ts file 
+11    create index.ts and add the following statement at the top of the code 
             #! /usr/bin/env node 
-12 login to your npm account with your username and password 
-13 run command for publishing your project on npm 
+12    login to your npm account with your username and password 
+13    run command for publishing your project on npm 
             npm publish
